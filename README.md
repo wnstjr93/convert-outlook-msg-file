@@ -14,11 +14,15 @@ Then either convert a single file by piping:
 
 	(python3.6) outlookmsgfile.py < message.msg > message.eml
 
-Or convert a set of files:
+Or convert a set of files: (On the same path and use)
+
 +++++++
-On the same path and use..
-ex)
-cmd> outlookmsgfile_auto.py C:\Users\(Users)\Desktop\msg_folder
+
+
+ex) 
+
+    outlookmsgfile_auto.py C:\Users\(User_name)\Desktop\msg_folder
+
 +++++++
 
 When passing filenames as command-line arguments, a new file with `.eml`
